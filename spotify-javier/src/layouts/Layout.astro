@@ -20,12 +20,14 @@ const { title } = Astro.props;
 	<body>
 		<div id="app" class="relative h-screen p-2 gap-2">
 			<aside id="aside" class="[grid-area: aside] flex-col overflow-y-auto bg-blue-100">
+				ASIDE
 				<AsideMenu />
 			</aside>
-			<main id="main" class="[grid-area:main] rounded-lg bg-zinc-900 overflow-y-auto">
-				
+			<main id="main" class="[grid-area:main] rounded-lg bg-red-900 overflow-y-auto">
+				MAIN
 			</main>
-			<footer id="footer" class="[grid-area:player] min-h-[100px]">
+			<footer id="footer" class="[grid-area:player] bg-blue-300 min-h-[100px]">
+				FOOTER
 			</footer>
 		</div>
 		<slot />
