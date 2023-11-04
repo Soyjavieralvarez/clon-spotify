@@ -9,15 +9,24 @@ import SideMenuItem from "./SideMenuItem.astro";
         <ul>
             <SideMenuItem href="/">
                 <Home />
-                Home
+                Inicio
             </SideMenuItem>
 
             <SideMenuItem href="/#">
                 <Search />
-                Search
+                Buscar
             </SideMenuItem>
         </ul>
     </div>
 
-    <Library />
+    <div class="bg-zinc-900 rounded-lg p-2">
+        <ul>
+            <SideMenuItem href="/#">
+                <Library />
+                Tu biblioteca
+            </SideMenuItem>
+        </ul>
+    </div>
+
+    
 </nav>
