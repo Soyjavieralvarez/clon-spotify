@@ -64,6 +64,51 @@ export const playlists: Playlist[] = [
       "https://f4.bcbits.com/img/a0363730459_16.jpg",
     artists: ["WFS", "Nadav Cohen"],
   },
+  {
+    id: '7',
+    albumId: 7,
+    title: "Autoterapia",
+    color: colors.orange,
+    cover:
+      "https://static.fnac-static.com/multimedia/Images/ES/NR/56/fa/15/1440342/1540-1/tsp20180209124223/Autoterapia.jpg",
+    artists: ["Izal"],
+  },
+  {
+    id: '8',
+    albumId: 8,
+    title: "Nothing but the Beat",
+    color: colors.orange,
+    cover:
+      "https://m.media-amazon.com/images/I/51XWsbo+X1L._SY300_.jpg",
+    artists: ["David Guetta"],
+  },
+  {
+    id: '9',
+    albumId: 9,
+    title: "Music of the Spheres",
+    color: colors.orange,
+    cover:
+      "https://linkstorage.linkfire.com/medialinks/images/871c0fd9-cfb6-479a-942d-99f36615e288/artwork-440x440.jpg",
+    artists: ["ColdPlay"],
+  },
+  {
+    id: '10',
+    albumId: 10,
+    title: "The Lumineers",
+    color: colors.orange,
+    cover:
+      "https://www.mondosonoro.com/wp-content/uploads/2019/10/The-Lumineers-III.jpg",
+    artists: ["The Lumineers"],
+  },
+  {
+    id: '11',
+    albumId: 11,
+    title: "Quevedo: BZRP, Vol.52",
+    color: colors.orange,
+    cover:
+      "https://f4.bcbits.com/img/a0823894290_16.jpg",
+    artists: ["Bizarrap", "Quevedo"],
+  },
 ];
 
 export const morePlaylists = playlists.map((item) => ({
