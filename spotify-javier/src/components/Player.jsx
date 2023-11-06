@@ -12,12 +12,15 @@ export const Pause = ({ className }) => (
     const [isPlaying, setIsPlaying] = useState(false)
     const [currentSong, setCurrentSon] = useState(null)
     const audioRef = useRef()
+    
+    useEffect(() => {
+        audioRef.current.src = `/music/1/01.mp3`
+    }, [])
 
     const handleClick = () => {
         if (isPlaying) {
             audioRef.current.pause()
         } else {
-            audioRef.current.src = `/music/1/01.mp3`
             audioRef.current.play()
             audioRef.current.volume = 0.2
         }
