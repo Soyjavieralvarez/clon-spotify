@@ -1,7 +1,6 @@
 {
-
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "C:/Users/javie/OneDrive/Escritorio/Hora de programar/Astro/Spotify-Clon/spotify-javier",
     "paths": {
       "@/*": [
         "src/*"
@@ -9,16 +8,15 @@
       "@/components": [
         "src/components/*"
       ],
-      "@/icons":[
+      "@/icons": [
         "src/icons/*"
       ],
-      "@/lib":[
+      "@/lib": [
         "src/lib/*"
       ]
     },
-    
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   },
-  
-  
   "extends": "astro/tsconfigs/strict"
 }
