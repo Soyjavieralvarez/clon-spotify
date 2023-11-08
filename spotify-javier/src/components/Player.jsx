@@ -9,30 +9,53 @@ export const Pause = ({ className }) => (
     <svg className={className} role="img" height="16" width="16" aria-hidden="true" viewBox="0 0 16 16"><path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288V1.713z"></path></svg>
   )
 
-  export function Player () {
-    const { isPlaying, setIsPlaying } = usePlayerStore(state => state)
-    const [currentSong, setCurrentSon] = useState(null)
-    const audioRef = useRef()
+  const CurrentSong = ({ image, title }) => {
     
+    return (
+        <div
+        className={`
+        flex items-center gap-5 relative
+        overflow-hidden
+        `}
+        >
+        <picture className="w-16 h-16 bg-zinc-800 rounded-md shadow-lg overflow-hidden">
+            <img src={title} all={title} />
+        </picture>
+            <h3 className="font-bold block">
+                {title}
+            </h3>
+        </div>
+    )
+  }
+
+  export function Player () {
+    const { currentMusic, isPlaying, setIsPlaying } = usePlayerStore(state => state)
+    const audioRef = useRef()
+
     useEffect(() => {
-        audioRef.current.src = `/music/1/01.mp3`
-    }, [])
+        isPlaying
+        ? audioRef.current.play()
+        : audioRef.current.pause()
+    }, [isPlaying])
+    
+
+    useEffect(() => {
+        const { song, playlist, songs } = currentMusic
+        if (song) {
+            const src = `/music/${playlist?.id}/0${song.id}.mp3`
+            audioRef.current.src = src
+            audioRef.current.play()
+        }
+    }, [currentMusic])
 
     const handleClick = () => {
-        if (isPlaying) {
-            audioRef.current.pause()
-        } else {
-            audioRef.current.play()
-            audioRef.current.volume = 0.2
-        }
-        
         setIsPlaying(!isPlaying)
     }
     
     return (
         <div className="flex flex-row justify-between w-full px-4 z-50">
             <div>
-                CurrentSong...
+                <CurrentSong {...currentMusic.song} />
             </div>
 
             <div className="grid place-content-center gap-4 flex-1">
