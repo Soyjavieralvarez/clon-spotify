@@ -2,7 +2,13 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		extend: {},
-	},
-	plugins: [],
+		extend: {
+		  colors: {
+			customRed: '#18181b', // Cambia este color según tus preferencias
+		  },
+		},
+	  },
+	plugins: [
+		require('tailwind-scrollbar-hide'),
+	],
 }
