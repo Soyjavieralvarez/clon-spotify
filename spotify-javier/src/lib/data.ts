@@ -240,7 +240,7 @@ export const songs: Song[] = [
     "id": 1,
     "albumId": 4,
     "title": "Lunar",
-    "image": "./assets/música-vibrante.jpg",
+    "image": `./assets/música-vibrante.jpg`,
     "artists": ["Tenno"],
     "album": "Study Session",
     "duration": "3:40"
@@ -249,7 +249,7 @@ export const songs: Song[] = [
     "id": 2,
     "albumId": 4,
     "title": "Go go go!",
-    "image": "./assets/música-vibrante.jpg",
+    "image": `./assets/música-vibrante.jpg`,
     "artists": ["Tenno"],
     "album": "Study Session",
     "duration": "3:20"
@@ -258,7 +258,7 @@ export const songs: Song[] = [
     "id": 3,
     "albumId": 4,
     "title": "Keep focus!",
-    "image": "./assets/música-vibrante.jpg",
+    "image": `./assets/música-vibrante.jpg`,
     "artists": ["Tenno"],
     "album": "Study Session",
     "duration": "2:40"
@@ -267,7 +267,7 @@ export const songs: Song[] = [
     "id": 4,
     "albumId": 4,
     "title": "JavaScript is the way",
-    "image": "./assets/música-vibrante.jpg",
+    "image": `./assets/música-vibrante.jpg`,
     "artists": ["Tenno"],
     "album": "Study Session",
     "duration": "3:10"
@@ -276,7 +276,7 @@ export const songs: Song[] = [
     "id": 5,
     "albumId": 4,
     "title": "No more TypeScript for me",
-    "image": "./assets/música-vibrante.jpg",
+    "image": `./assets/música-vibrante.jpg`,
     "artists": ["Tenno"],
     "album": "Study Session",
     "duration": "2:10"
@@ -285,7 +285,7 @@ export const songs: Song[] = [
     "id": 1,
     "albumId": 5,
     "title": "Moonlit Walk",
-    "image": "./assets/logo.jpg",
+    "image": `./assets/logo.jpg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "3:12"
@@ -294,7 +294,7 @@ export const songs: Song[] = [
     "id": 2,
     "albumId": 5,
     "title": "Coffee Daze",
-    "image": "./assets/logo.jpg",
+    "image": `./assets/logo.jpg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "4:07"
@@ -303,7 +303,7 @@ export const songs: Song[] = [
     "id": 3,
     "albumId": 5,
     "title": "Skyline Serenade",
-    "image": "./assets/logo.jpg",
+    "image": `./assets/logo.jpg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "3:50"
@@ -312,7 +312,7 @@ export const songs: Song[] = [
     "id": 4,
     "albumId": 5,
     "title": "Urban Echoes",
-    "image": "./assets/logo.jpg",
+    "image": `./assets/logo.jpg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "3:30"
@@ -321,7 +321,7 @@ export const songs: Song[] = [
     "id": 5,
     "albumId": 5,
     "title": "Night's End",
-    "image": "./assets/logo.jpg",
+    "image": `./assets/logo.jpg`,
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "4:20"
