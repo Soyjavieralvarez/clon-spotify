@@ -57,7 +57,7 @@ export const playlists: Playlist[] = [
   {
     id: '6',
     albumId: 6,
-    title: "Like a Necessity",
+    title: "Wild life",
     color: colors.orange,
     cover:
       "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c325cfb2-7900-4571-80e1-6c2f704dc2f0/Leonardo_Diffusion_XL_high_quality_highly_detailed_beautifully_2.jpg",
@@ -70,7 +70,7 @@ export const playlists: Playlist[] = [
     color: colors.orange,
     cover:
       "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c6c2e553-5d25-4915-af73-baf0ceccabfd/Leonardo_Diffusion_XL_Quiero_un_logotipo_de_para_una_plataform_0.jpg?w=512",
-    artists: ["Izal"],
+    artists: ["Glow city"],
   }
 ];
 
@@ -326,4 +326,97 @@ export const songs: Song[] = [
     "album": "Chill Lo-Fi Music",
     "duration": "4:20"
   },
+
+  {
+    "id": 1,
+    "albumId": 6,
+    "title": "Sea",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c325cfb2-7900-4571-80e1-6c2f704dc2f0/Leonardo_Diffusion_XL_high_quality_highly_detailed_beautifully_2.jpg",
+    "artists": ["LoFi Dreamer"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "3:12"
+  },
+  {
+    "id": 2,
+    "albumId": 6,
+    "title": "Beach",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c325cfb2-7900-4571-80e1-6c2f704dc2f0/Leonardo_Diffusion_XL_high_quality_highly_detailed_beautifully_2.jpg",
+    "artists": ["LoFi Dreamer"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "4:07"
+  },
+  {
+    "id": 3,
+    "albumId": 6,
+    "title": "Beach and sun",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c325cfb2-7900-4571-80e1-6c2f704dc2f0/Leonardo_Diffusion_XL_high_quality_highly_detailed_beautifully_2.jpg",
+    "artists": ["LoFi Dreamer"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "3:50"
+  },
+  {
+    "id": 4,
+    "albumId": 6,
+    "title": "Summer Vibes",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c325cfb2-7900-4571-80e1-6c2f704dc2f0/Leonardo_Diffusion_XL_high_quality_highly_detailed_beautifully_2.jpg",
+    "artists": ["LoFi Dreamer"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "3:30"
+  },
+  
+
+  {
+    "id": 1,
+    "albumId": 7,
+    "title": "EDM",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c6c2e553-5d25-4915-af73-baf0ceccabfd/Leonardo_Diffusion_XL_Quiero_un_logotipo_de_para_una_plataform_0.jpg?w=512",
+    "artists": ["Glow city"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "3:12"
+  },
+  {
+    "id": 2,
+    "albumId": 7,
+    "title": "EDM 2",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c6c2e553-5d25-4915-af73-baf0ceccabfd/Leonardo_Diffusion_XL_Quiero_un_logotipo_de_para_una_plataform_0.jpg?w=512",
+    "artists": ["Glow city"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "4:07"
+  },
+  {
+    "id": 3,
+    "albumId": 7,
+    "title": "EDM 3",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c6c2e553-5d25-4915-af73-baf0ceccabfd/Leonardo_Diffusion_XL_Quiero_un_logotipo_de_para_una_plataform_0.jpg?w=512",
+    "artists": ["Glow city"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "3:50"
+  },
+  {
+    "id": 4,
+    "albumId": 7,
+    "title": "EDM Party",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c6c2e553-5d25-4915-af73-baf0ceccabfd/Leonardo_Diffusion_XL_Quiero_un_logotipo_de_para_una_plataform_0.jpg?w=512",
+    "artists": ["Glow city"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "3:30"
+  },
+  {
+    "id": 5,
+    "albumId": 7,
+    "title": "Be EDM",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c6c2e553-5d25-4915-af73-baf0ceccabfd/Leonardo_Diffusion_XL_Quiero_un_logotipo_de_para_una_plataform_0.jpg?w=512",
+    "artists": ["Glow city"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "3:30"
+  },
+  {
+    "id": 6,
+    "albumId": 7,
+    "title": "Trap Instrumental",
+    "image": "https://cdn.leonardo.ai/users/7218e508-16cd-4cf7-aadf-34cee0f42519/generations/c6c2e553-5d25-4915-af73-baf0ceccabfd/Leonardo_Diffusion_XL_Quiero_un_logotipo_de_para_una_plataform_0.jpg?w=512",
+    "artists": ["Glow city"],
+    "album": "Chill Lo-Fi Music",
+    "duration": "3:30"
+  }
 ]
